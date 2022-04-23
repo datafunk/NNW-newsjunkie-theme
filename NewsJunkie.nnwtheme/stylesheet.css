@@ -41,7 +41,6 @@ a:active
 	color:#2188f0;
 	color:#f1f2f3;
 	text-decoration:none;
-	/* text-decoration:underline; */
 	font-weight: 100;
 	font-family: 'Avenir';
 }
@@ -168,11 +167,8 @@ figure figcaption {
 hr {
 	height: 1px;
 	border-color:darkgrey;
-
-
 	border-style: dashed;
     border-width: 0 0 1px 0;
-    /* border-radius: 20px; */
 	margin: 3em 0 1em;
 }
 
@@ -181,7 +177,6 @@ footer p {
 	text-align: right;
 	margin: 0 auto 5em;
 	color: darkgrey;
-	/* text-shadow: 0px .25px 0px lightgrey; */
 	font-weight: 100;
 }
 
