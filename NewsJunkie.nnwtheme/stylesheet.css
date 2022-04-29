@@ -15,9 +15,7 @@ body {
 
 	/* bp */
 	background-color: #242527;
-	/* color: #f1f2f3; */
 	color: antiquewhite;
-	/* color: #af9a7d; */
 	/*
 	#06417c
 	#2188f0
@@ -41,27 +39,20 @@ a:hover,
 a:visited,
 a:active
  {
-	/* color:#f1f2f3; */
 	color: antiquewhite;
 	text-decoration:none;
 	font-weight: 100;
 	font-family: 'Avenir';
 }
 
-/* don't seem to work */
-/* a:visited {
-	color: #a0cbf6;
-	text-decoration: line-through;
-} */
-
 a:hover {
-	/* color:#2188f0; */
 	text-decoration:underline;
 }
 
 
 header {
-	padding: 1em 0;
+	padding: 1em 0 2em;
+	margin-bottom: .5em;
 	border-bottom:1px solid darkgrey;
 }
 
@@ -76,10 +67,13 @@ header h1 {
 }
 
 header h1 a:link {
-	color: rgb(103, 103, 103);
-	/* color: antiquewhite; */
+	color: antiquewhite;
 	width: calc(100% - 48px - 1em);
 	font-family: 'Baskerville';
+}
+
+header h1 a:hover {
+	color: #f1f2f3;
 }
 
 header h1 img {
@@ -92,15 +86,8 @@ header h2 {
 	font-family: 'Avenir Next Regular';
 }
 
-/* header h2 a:hover, */
-header h1 a:hover {
-	color: rgb(120,120,120);
-	/* color: antiquewhite; */
-}
-
 header h2 a:hover {
 	color: antiquewhite;
-	/* color: rgb(162 162 162); */
 }
 
 
@@ -108,7 +95,7 @@ header .meta {
 	display:flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	margin-bottom:-.8em;
 	font-style: normal;
@@ -173,7 +160,6 @@ article h6 {
 }
 
 article p {
-	/* font-family: 'Avenir Next Light', 'Avenir Next Ultra Light', 'Avenir', -apple-system; */
 	font-family: 'Avenir Next Light', 'Avenir', -apple-system;
 	font-weight: 100;
 }
@@ -216,9 +202,7 @@ footer p {
 }
 
 .meta {
-	/* font-family:'Courier New', monaco; */
-	font-size: .8em;
-	line-height:2em;
+	font-size: .9em;
 }
 
 time.meta {
