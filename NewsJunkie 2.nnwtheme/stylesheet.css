@@ -61,7 +61,8 @@ a:hover {
 
 
 header {
-	padding: 1em 0;
+	padding: 1em 0 2em;
+	margin-bottom: .5em;
 	border-bottom:1px solid darkgrey;
 }
 
@@ -76,10 +77,17 @@ header h1 {
 }
 
 header h1 a:link {
-	color: rgb(103, 103, 103);
-	/* color: antiquewhite; */
+	/* color: rgb(103, 103, 103); */
+	color: antiquewhite;
 	width: calc(100% - 48px - 1em);
 	font-family: 'Baskerville';
+}
+
+/* header h2 a:hover, */
+header h1 a:hover {
+	/* color: rgb(120,120,120); */
+	color: #f1f2f3;
+	/* color: antiquewhite; */
 }
 
 header h1 img {
@@ -92,11 +100,7 @@ header h2 {
 	font-family: 'Avenir Next Regular';
 }
 
-/* header h2 a:hover, */
-header h1 a:hover {
-	color: rgb(120,120,120);
-	/* color: antiquewhite; */
-}
+
 
 header h2 a:hover {
 	color: antiquewhite;
@@ -108,7 +112,8 @@ header .meta {
 	display:flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	/* justify-content: space-between; */
+	justify-content: flex-start;
 	align-items: center;
 	margin-bottom:-.8em;
 	font-style: normal;
@@ -217,8 +222,8 @@ footer p {
 
 .meta {
 	/* font-family:'Courier New', monaco; */
-	font-size: .8em;
-	line-height:2em;
+	font-size: .9em;
+	/* line-height:1.6em; */
 }
 
 time.meta {
